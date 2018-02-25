@@ -12,6 +12,7 @@ class TablePermutationCipher(ICipherProvider):
             @param key_provider IKeyProvider key for operation
         """
         self._key_provider = key_provider
+
     def encrypt(self, block):
         """ Encrypt given block with table permutation cipher
 
